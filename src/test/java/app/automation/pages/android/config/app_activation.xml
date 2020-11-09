@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="App Testing - Activation Page" verbose="1" parallel="tests" thread-count="2" >
+
+
+    <!--Android Activation Page Tests-->
+    <test name="Dummy ActivationPage Android">
+        <parameter name="androidPlatformVersion" value="8.1"/>
+        <parameter name="androidDeviceName" value="Pixel_XL_API_27_ANDROID8.1"/>
+        <classes>
+            <class name="com.evive.myEvive.activationPage.config.DummyTest"/>
+        </classes>
+    </test>
+
+</suite>

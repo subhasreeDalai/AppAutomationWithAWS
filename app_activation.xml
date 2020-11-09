@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="App Testing - Activation Page" thread-count="1">
+    <listeners>
+        <listener class-name="app.automation.extentreportlistener.ExtentTestNGITestListener"/>
+    </listeners>
+    <test name="ActivationPage Android">
+      <!--  <parameter name="androidAutomationName" value="UiAutomator2"/>
+        <parameter name="androidPlatformName" value="Android"/>
+        <parameter name="androidPlatformVersion" value="8.1"/>
+        <parameter name="androidDeviceName" value="Pixel_XL_API_27_ANDROID8.1"/>
+        <parameter name="androidUDID" value="emulator-5554"/>
+        <parameter name="androidSystemPort" value="8200"/>
+        <parameter name="androidURL" value="127.0.0.1:4273/wd/hub"/>-->
+        <classes>
+            <class name="app.automation.pages.android.ActivationTest"/>
+        </classes>
+    </test>
+</suite>
