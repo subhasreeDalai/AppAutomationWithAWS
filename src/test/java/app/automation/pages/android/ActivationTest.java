@@ -10,8 +10,8 @@ import org.testng.annotations.Test;
 public class ActivationTest extends AbstractAndroidAppTest {
   private AndroidActivationTokenPage androidActivationTokenPage;
   private static final String UNLOCK_YOUR_BENEFITS_WITH_MY_EVIVE = "Discover your benefits with MyEvive";
-  private static final String USERNAME = "test1056cstatususer2@goevive.com";
-  private static final String PASSWORD = "evivetest";
+  private static final String USERNAME = "username";
+  private static final String PASSWORD = "password";
 
   @BeforeClass(alwaysRun = true)
   public void setup(){
